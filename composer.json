@@ -1,0 +1,21 @@
+{
+    "name": "karthikpnr/yii2-karthikpnr",
+    "description": "Yii2 extension to access railpnrapi",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","Indian Railway PNR"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Karthik",
+            "email": "karthik.tpl@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "karthikpnr\\irpnr\\": ""
+        }
+    }
+}
